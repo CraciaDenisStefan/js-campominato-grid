@@ -31,6 +31,7 @@ main{
     flex-wrap: wrap;
     margin: 50px 0;
  }
+ /* Square 10 */
  .square{
     width: calc(700px / 10);
     height: calc(700px / 10);
@@ -40,6 +41,26 @@ main{
     align-items: center;
 
  }
+ /* Square 9 */
+ .square_9{
+   width: calc(700px / 9);
+   height: calc(700px / 9);
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+/* Square 7 */
+.square_7{
+   width: calc(700px / 7);
+   height: calc(700px / 7);
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
 
  .clicked{
     background-color: rgb(45, 75, 247);
