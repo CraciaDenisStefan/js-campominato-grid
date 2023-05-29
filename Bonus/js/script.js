@@ -6,13 +6,10 @@ function createSquareElement(livello) {
     let square = document.createElement('div');
     
     if (livello === 'Easy') {
-        square.classList.remove('square_9', 'square_7');
         square.classList.add('square');
     } else if (livello === 'Medium') {
-        square.classList.remove('square', 'square_7');
         square.classList.add('square_9');
     } else if (livello === 'Hard') {
-        square.classList.remove('square', 'square_9');
         square.classList.add('square_7');
     }
 
