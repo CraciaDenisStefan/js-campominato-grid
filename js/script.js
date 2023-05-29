@@ -14,7 +14,7 @@ start.addEventListener(`click`, function(){
 
     let container = document.querySelector(`.container_main`)
     container.classList.add(`container`)
-
+    container.innerHTML = '';
     for (let i=0; i<100; i++){
         let square = createSquareElement();
         square.innerText = i + 1;
